@@ -8,7 +8,7 @@ WatchOS 2 Experiments - New UI Components - Picker List
 
 ## Example
 
-![](https://raw.githubusercontent.com/Sweefties/WatchOS2-NewUI-Movie-Example/master/Screenshots/Apple_Watch_template-PickerList.jpg)
+![](https://raw.githubusercontent.com/Sweefties/WatchOS2-NewUI-PickerList-Example/master/source/Apple_Watch_template-PickerList.jpg)
 
 ## Requirements
 
