@@ -46,7 +46,7 @@ class InterfaceController: WKInterfaceController {
 //MARK: Interface Controller Extension
 extension InterfaceController {
     
-    // set Data List for Picker List
+    // set Data List for Picker List.
     func setDataList() {
         for i in 0...15 {
             let item = WKPickerItem()
@@ -56,13 +56,13 @@ extension InterfaceController {
         self.pickerList.setItems(pickerItems)
     }
     
-    // init selected Item Label
+    // init selected Item Label.
     func initSelectedItemLbl() {
         let selectedItem = self.pickerItems[0]
         self.pickerListTitle.setText(selectedItem.title!)
     }
     
-    // append object list strings
+    // append object list strings.
     func appendObjectStrings() {
         self.object = ["OS X El Capitan", "iOS 9.0", "watchOS 2", "Swift 2", "Multitasking", "Search API", "GameplayKit", "ReplayKit", "Model I/O", "App Thinning", "Error handling model", "Availability", "Control Flow", "Protocol extensions", "Extended Patterns", "Open Source"]
     }
